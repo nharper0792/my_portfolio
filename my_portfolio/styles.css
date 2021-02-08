@@ -1,0 +1,122 @@
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	font-size: 14pt;
+	background-image: url(brickwall.jpg);
+	background-size: cover;
+	}
+nav a:link {
+	color: #FF0000;
+	text-decoration: none;
+	padding:10px;
+}
+    nav a:visited {
+	text-decoration: none;
+	color: #7A0002;
+	padding:10px;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #ff0000;
+	padding: 10px;
+	border-radius: 20px;
+	
+}
+nav a:active {
+	text-decoration: none;
+	color: #2D0000;
+}
+img {
+	float:right;
+	padding: 10px;
+}
+.floatLeft{
+	float:left;
+}
+#container nav li {
+	display: block;
+	font-family: aglet-mono,sans-serif;
+	list-style-type: none;
+	float:left;
+	width:60px;
+	margin: 0px 40px 0px 0px;
+	text-align:center;
+}
+#container nav ul{
+	width:400px;
+	margin:auto;
+}
+#container {
+	width: 768px;
+	height: auto;
+	background-color: #ffffff;
+	margin: auto;
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url(header.svg);
+}
+nav{
+	width: 768px;
+	height: 50px;
+}
+
+/* must float aside and main */
+aside {
+    width: 130px;
+    background-color: #A4A4A4;
+    float: left;
+    padding: 10px;
+    height: 1600px;
+}
+main {
+    width: 598px;
+    height: auto;
+	float:left;
+	padding: 10px;
+}
+
+article {
+	margin-bottom: 30px;
+}
+
+
+/*clear the float on footer*/
+footer {
+    background-color: red;
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+
+h3 {
+	padding: 20px;
+	font-size: 14px;
+}
+h1 {
+	color: #FF0000;
+	font-family: input-sans,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+p {
+font-family: aglet-mono,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.submit_btn {
+    font-family: aglet-mono,sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #FF0000;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px #000000;
+	
+}
